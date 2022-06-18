@@ -246,7 +246,7 @@ Learn how branches work: <https://www.youtube.com/watch?v=mhZQRBp8dXE>
 
 ```bash
 git branch <branch>      # create a new branch
-git branch -M <branch>   # create and switch to the new branch
+git branch -M <branch>   # rename the current branch
 
 # Create new branch from commit
 git branch <branch> <commit_hash>
