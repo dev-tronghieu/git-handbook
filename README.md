@@ -12,9 +12,9 @@
 - [Basic commands](#basic-commands)
 	- [Git add](#git-add)
 	- [Git ignore](#git-ignore)
-	- [Git commit](#git-commit)
 	- [Git status](#git-status)
 	- [Git diff](#git-diff)
+	- [Git commit](#git-commit)
 	- [Git log](#git-log)
 	- [Git alias](#git-alias)
 - [Branch](#branch)
@@ -146,15 +146,6 @@ A `.gitignore` file **in the root of your local repo** specifies intentionally u
 temp/
 ```
 
-### Git commit
-
-```bash
-# Staging area -> Local repository
-git commit -m "title (must have)" -m "body (optional)"
-```
-
-It's time to learn git objects: <https://www.youtube.com/watch?v=MyvyqdQ3OjI>
-
 ### Git status
 
 ```bash
@@ -193,6 +184,15 @@ Status:
 ```bash
 git diff
 ```
+
+### Git commit
+
+```bash
+# Staging area -> Local repository
+git commit -m "title (must have)" -m "body (optional)"
+```
+
+It's time to learn git objects: <https://www.youtube.com/watch?v=MyvyqdQ3OjI>
 
 ### Git log
 
