@@ -8,7 +8,6 @@
 	- [Three main components of a Git Project](#three-main-components-of-a-git-project)
 - [Initializing a project](#initializing-a-project)
 	- [New repository (Empty repo)](#new-repository-empty-repo)
-	- [Existing repository](#existing-repository)
 	- [Clone a project](#clone-a-project)
 - [Basic commands](#basic-commands)
 	- [Git add](#git-add)
@@ -102,15 +101,6 @@ git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin <repo_git>
-git push -u origin main
-```
-
-### Existing repository
-
-```bash
-git init
-git remote add origin <repo_git>
-git branch -M main
 git push -u origin main
 ```
 
