@@ -7,7 +7,7 @@
 	- [What is Git?](#what-is-git)
 	- [Three main components of a Git Project](#three-main-components-of-a-git-project)
 - [Initializing a project](#initializing-a-project)
-	- [New repository (Empty repo)](#new-repository-empty-repo)
+	- [New repository](#new-repository)
 	- [Clone a project](#clone-a-project)
 - [Basic commands](#basic-commands)
 	- [Git add](#git-add)
@@ -92,7 +92,7 @@ The index, or staging area, is where commits are prepared. The index compares th
 
 ## Initializing a project
 
-### New repository (Empty repo)
+### New repository
 
 ```bash
 echo "# Describe your project" >> README.md
