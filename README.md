@@ -77,6 +77,16 @@ In short, a version control system like Git makes it easy to:
 
 [Click here to install git](https://git-scm.com/downloads)
 
+```bash
+# Setup some basic information
+git config --global user.name "Your name"
+git config --global user.email "Your email"
+
+# See the above info
+git config user.name
+git config user.email
+```
+
 ### Three main components of a Git Project
 
 The repository, or repo, is the “container” that tracks the changes to your project files. It holds all of the commits — a snapshot of all your files at a point in time — that have been made.
